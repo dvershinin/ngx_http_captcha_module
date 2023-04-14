@@ -1,3 +1,15 @@
+## Installation
+
+```bash
+sudo dnf -y install https://extras.getpagespeed.com/release-latest.rpm
+sudo dnf -y install nginx-module-captcha
+```
+
+Requires installed and enabled:
+
+* [nginx-module-form-input](https://nginx-extras.getpagespeed.com/modules/form-input/)
+* [nginx-module-set-misc](https://nginx-extras.getpagespeed.com/modules/set-misc/)
+
 ## Module:
 
 ### Example Configuration:
